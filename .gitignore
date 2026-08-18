@@ -1,0 +1,8 @@
+
+# Exports brutos do InPaaS - podem conter credenciais
+/dev-durr.assertiv.com.br-dbexport-*.csv
+/exports/original/*.csv
+
+# Snapshot completo somente para contexto local
+# Pode conter patterns de terceiros com segredos hardcoded
+/referencias/ambiente-completo/

@@ -1,0 +1,12 @@
+{
+  "core_pattern": {
+    "origem": "dev-durr.assertiv.com.br-dbexport-1787081109503.csv",
+    "copia": "exports/original/core_pattern.csv",
+    "sha256": "8ff1993feda022305212db3ef33068be1c749fc10e3f2fea64391f3b6998301e"
+  },
+  "formulario": {
+    "origem": "dev-durr.assertiv.com.br-dbexport-1787081130606.csv",
+    "copia": "exports/original/formulario.csv",
+    "sha256": "7d9b43508eb030dbeb65e66ee40e6909c0743935543cb06a0a37692fa0970a33"
+  }
+}
