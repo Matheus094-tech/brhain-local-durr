@@ -1,0 +1,971 @@
+"368";"DurrDashboardColaborador";"durr.main.dev.dashboard.colaborador";"null";"33";"null";"null";"null";"null";"<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "xy6rd7fpyq");
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--
+  ATENÇÃO: este link segue o MESMO padrão de URL usado em DashHome.html
+  (/api/TemplateCss/setCoresInCss/<nome qualificado da tela>), trocando só
+  o nome da tela — mas não tenho como confirmar se essa tela nova já está
+  registrada nesse serviço de tema. Se der 404 ou vier sem estilo, troque
+  por como DashHome.css realmente é servido no seu ambiente (pode já estar
+  disponível globalmente pra qualquer tela .dash-v3, caso em que basta
+  remover esta linha).
+-->
+<link rel="stylesheet" href="/api/TemplateCss/setCoresInCss/brhain.rh.cadastro.forms.dashboard_colaboradores" type="text/css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<style>
+  /*
+    Cópia completa de DashColaboradores.css embutida inline, como
+    salvaguarda caso o <link> acima não resolva neste ambiente (mesmo
+    esquema de fallback que o DashHome.html já usa pro quick-row, só que
+    aqui cobrindo a tela inteira). Se preferir manter só o arquivo externo,
+    pode apagar este bloco <style> depois de confirmar que o <link> carrega.
+  */
+  :root {
+    --dash-bg: #f3f5f8;
+    --dash-card: #ffffff;
+    --dash-border: #e6ebf1;
+    --dash-text: #1a2332;
+    --dash-muted: #6b778c;
+    --dash-blue: #3b82f6;
+    --dash-teal: #14b8a6;
+    --dash-green: #22c55e;
+    --dash-red: #ef4444;
+    --dash-orange: #f59e0b;
+    --dash-indigo: #6366f1;
+    --dash-slate: #64748b;
+    --dash-radius: 14px;
+    --dash-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 4px 16px rgba(16, 24, 40, 0.04);
+  }
+  body.font-admin {
+    background: var(--dash-bg) !important;
+    color: var(--dash-text);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #admin.dash-v3,
+  .dash-v3 {
+    background: var(--dash-bg) !important;
+    color: var(--dash-text);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    padding: 20px 22px 36px;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
+  }
+  .dash-v3 *, .dash-v3 *::before, .dash-v3 *::after { box-sizing: border-box; }
+  .dash-v3-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+  .dash-v3-header h1 { margin: 0; font-size: 1.55rem; font-weight: 700; letter-spacing: -0.02em; color: var(--dash-text); }
+  .dash-v3-header .sub { margin: 4px 0 0; color: var(--dash-muted); font-size: 0.92rem; }
+  .dash-v3-updated { color: var(--dash-muted); font-size: 0.82rem; white-space: nowrap; padding-top: 6px; }
+  .filter-bar { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 14px; }
+  .filter-field { position: relative; background: var(--dash-card); border: 1px solid var(--dash-border); border-radius: var(--dash-radius); box-shadow: var(--dash-shadow); padding: 9px 30px 9px 12px; display: flex; align-items: center; gap: 10px; }
+  .filter-field .filter-ico { width: 30px; height: 30px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.9rem; flex-shrink: 0; background: #eef2f7; color: var(--dash-slate); }
+  .filter-field .filter-body { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+  .filter-field label { font-size: 0.7rem; color: var(--dash-muted); font-weight: 600; margin-bottom: 1px; }
+  .filter-field select { appearance: none; -webkit-appearance: none; -moz-appearance: none; border: 0; background: transparent; font-size: 0.86rem; font-weight: 600; color: var(--dash-text); padding: 0; width: 100%; cursor: pointer; }
+  .filter-field select:focus { outline: none; }
+  .filter-field::after { content: ""; position: absolute; right: 13px; top: 50%; width: 7px; height: 7px; border-right: 2px solid var(--dash-muted); border-bottom: 2px solid var(--dash-muted); transform: translateY(-65%) rotate(45deg); pointer-events: none; }
+  .kpi-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 14px; }
+  .kpi-card { background: var(--dash-card); border: 1px solid var(--dash-border); border-radius: var(--dash-radius); box-shadow: var(--dash-shadow); padding: 16px 16px 14px; min-height: 120px; display: flex; flex-direction: column; align-items: flex-start; gap: 0; }
+  .kpi-top { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 28px; color: var(--dash-muted); font-size: 0.84rem; font-weight: 600; line-height: 1.25; }
+  .kpi-label { display: block; line-height: 1.25; }
+  .kpi-ico { width: 30px; height: 30px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.95rem; flex-shrink: 0; line-height: 1; }
+  .kpi-ico i { display: block; line-height: 1; transform: translateY(0.5px); }
+  .kpi-ico.blue { background: #dbeafe; color: #2563eb; }
+  .kpi-ico.teal { background: #ccfbf1; color: #0d9488; }
+  .kpi-ico.sky { background: #e0f2fe; color: #0284c7; }
+  .kpi-ico.green { background: #dcfce7; color: #16a34a; }
+  .kpi-ico.red { background: #fee2e2; color: #dc2626; }
+  .kpi-ico.orange { background: #ffedd5; color: #c2410c; }
+  .kpi-value { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; color: var(--dash-text); margin-top: 10px; width: 100%; }
+  .kpi-sub { font-size: 0.78rem; color: var(--dash-muted); line-height: 1.3; margin-top: auto; padding-top: 8px; min-height: 1.3em; width: 100%; }
+  .kpi-sub--empty { visibility: hidden; }
+  .chart-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+  .dash-panel { background: var(--dash-card); border: 1px solid var(--dash-border); border-radius: var(--dash-radius); box-shadow: var(--dash-shadow); padding: 16px 16px 12px; min-height: 280px; display: flex; flex-direction: column; }
+  .dash-panel.full { margin-bottom: 14px; }
+  .panel-title { margin: 0 0 4px; font-size: 1rem; font-weight: 700; color: var(--dash-text); }
+  .panel-sub { margin: 0 0 10px; font-size: 0.8rem; color: var(--dash-muted); }
+  .chart-box { position: relative; flex: 1; min-height: 210px; }
+  .chart-box.tall { min-height: 260px; }
+  .donut-layout { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 8px; flex: 1; align-items: center; }
+  .donut-legend { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .donut-legend li { display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; font-size: 0.8rem; color: var(--dash-text); }
+  .donut-legend .swatch { width: 10px; height: 10px; border-radius: 50%; }
+  .donut-legend .pct { color: var(--dash-muted); font-variant-numeric: tabular-nums; }
+  .dist-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; flex: 1; }
+  .dist-item { display: flex; flex-direction: column; min-width: 0; }
+  .dist-item h4 { margin: 0 0 8px; font-size: 0.85rem; font-weight: 700; color: var(--dash-text); }
+  .dist-item .chart-box { min-height: 220px; }
+  .dash-loading, .dash-error { padding: 28px; text-align: center; color: var(--dash-muted); }
+  .dash-error { color: #b91c1c; }
+  @media (max-width: 1100px) {
+    .kpi-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .filter-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .dist-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 820px) {
+    .dash-v3-header { flex-direction: column; }
+    .kpi-row, .chart-row, .donut-layout, .filter-bar, .dist-grid { grid-template-columns: 1fr; }
+  }
+</style>
+<body class="font-admin">
+  <div id="admin" class="dash-v3">
+    <header class="dash-v3-header">
+      <div>
+        <h1>Colaboradores</h1>
+        <p class="sub">Composição, movimentação e estrutura do quadro</p>
+      </div>
+      <div class="dash-v3-updated" id="dashUpdated">Atualizando…</div>
+    </header>
+
+    <div id="dashError" class="dash-error" style="display:none"></div>
+
+    <div class="filter-bar" id="filterBar">
+      <div class="filter-field">
+        <span class="filter-ico"><i class="bi bi-building"></i></span>
+        <div class="filter-body">
+          <label for="filtroEmpresa">Empresa</label>
+          <select id="filtroEmpresa"><option value="">Todas</option></select>
+        </div>
+      </div>
+      <div class="filter-field">
+        <span class="filter-ico"><i class="bi bi-shop"></i></span>
+        <div class="filter-body">
+          <label for="filtroFilial">Filial</label>
+          <select id="filtroFilial"><option value="">Todas</option></select>
+        </div>
+      </div>
+      <div class="filter-field">
+        <span class="filter-ico"><i class="bi bi-diagram-3"></i></span>
+        <div class="filter-body">
+          <label for="filtroDepartamento">Departamento</label>
+          <select id="filtroDepartamento"><option value="">Todos</option></select>
+        </div>
+      </div>
+      <div class="filter-field">
+        <span class="filter-ico"><i class="bi bi-person-check"></i></span>
+        <div class="filter-body">
+          <label for="filtroSituacao">Situação</label>
+          <select id="filtroSituacao"><option value="">Todas</option></select>
+        </div>
+      </div>
+      <div class="filter-field">
+        <span class="filter-ico"><i class="bi bi-calendar3"></i></span>
+        <div class="filter-body">
+          <label for="filtroPeriodo">Período</label>
+          <select id="filtroPeriodo">
+            <option value="3">Últimos 3 meses</option>
+            <option value="6">Últimos 6 meses</option>
+            <option value="12" selected="selected">Últimos 12 meses</option>
+            <option value="24">Últimos 24 meses</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="kpi-row" id="kpiRow">
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-ico blue"><i class="bi bi-people-fill"></i></span>
+          <span class="kpi-label">Colaboradores ativos</span>
+        </div>
+        <div class="kpi-value" id="kpiAtivos">—</div>
+        <div class="kpi-sub kpi-sub--empty" aria-hidden="true">&nbsp;</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-ico orange"><i class="bi bi-person-plus-fill"></i></span>
+          <span class="kpi-label">Admitidos no período</span>
+        </div>
+        <div class="kpi-value" id="kpiAdmitidos">—</div>
+        <div class="kpi-sub kpi-sub--empty" aria-hidden="true">&nbsp;</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-ico red"><i class="bi bi-person-dash-fill"></i></span>
+          <span class="kpi-label">Desligados no período</span>
+        </div>
+        <div class="kpi-value" id="kpiDesligados">—</div>
+        <div class="kpi-sub kpi-sub--empty" aria-hidden="true">&nbsp;</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-ico green"><i class="bi bi-person-badge-fill"></i></span>
+          <span class="kpi-label">Gestores</span>
+        </div>
+        <div class="kpi-value" id="kpiGestores">—</div>
+        <div class="kpi-sub kpi-sub--empty" aria-hidden="true">&nbsp;</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-ico sky"><i class="bi bi-clock-history"></i></span>
+          <span class="kpi-label">Tempo médio de empresa</span>
+        </div>
+        <div class="kpi-value" id="kpiTempoMedio">—</div>
+        <div class="kpi-sub kpi-sub--empty" aria-hidden="true">&nbsp;</div>
+      </div>
+    </div>
+
+    <section class="dash-panel full">
+      <h3 class="panel-title">Evolução do quadro</h3>
+      <p class="panel-sub">Admissões, desligamentos e total de colaboradores por mês</p>
+      <div class="chart-box tall"><canvas id="chartEvolucao"></canvas></div>
+    </section>
+
+    <div class="chart-row">
+      <section class="dash-panel">
+        <h3 class="panel-title">Colaboradores por situação</h3>
+        <div class="donut-layout">
+          <div class="chart-box"><canvas id="chartSituacao"></canvas></div>
+          <div>
+            <ul class="donut-legend" id="situacaoLegend"></ul>
+          </div>
+        </div>
+      </section>
+      <section class="dash-panel">
+        <h3 class="panel-title">Colaboradores por departamento</h3>
+        <div class="chart-box tall"><canvas id="chartDepartamento"></canvas></div>
+      </section>
+    </div>
+
+    <section class="dash-panel full">
+      <h3 class="panel-title">Distribuição dos colaboradores</h3>
+      <div class="dist-grid">
+        <div class="dist-item">
+          <h4>Colaboradores por empresa</h4>
+          <div class="chart-box"><canvas id="chartEmpresa"></canvas></div>
+        </div>
+        <div class="dist-item">
+          <h4>Colaboradores por filial</h4>
+          <div class="chart-box"><canvas id="chartFilial"></canvas></div>
+        </div>
+        <div class="dist-item">
+          <h4>Colaboradores por centro de custo</h4>
+          <div class="chart-box"><canvas id="chartCentroCusto"></canvas></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+<script>
+(function () {
+  // ATENÇÃO: os caminhos '/api/DashboardColaboradoresService/...' seguem o
+  // MESMO padrão observado em DashHome.html (que chama
+  // '/api/DashboardService/obterVisaoGeral' a partir do módulo
+  // 'brhain.rh.main.service.dashboard'). O nosso módulo se chama
+  // 'brhain.rh.main.service.dashboardColaboradores', então por analogia o
+  // nome de serviço vira 'DashboardColaboradoresService' — mas essa
+  // convenção de nome não está documentada nos arquivos de referência, só
+  // inferida por padrão. Se o endpoint não resolver, ajuste aqui pro nome
+  // real que o RESTService.addEndpoint registrar no seu ambiente.
+  var URL_OBTER_DADOS = '/api/RESTDashboard/obterDadosColaboradores';
+  var URL_OBTER_OPCOES = '/api/RESTDashboard/obterOpcoesFiltroColaboradores';
+
+  var PALETTE = ['#3b82f6', '#14b8a6', '#6366f1', '#f59e0b', '#22c55e', '#ef4444', '#0ea5e9', '#64748b', '#a855f7', '#e11d48'];
+  var charts = {};
+
+  if (window.Chart && window.ChartDataLabels) {
+    Chart.register(ChartDataLabels);
+  }
+
+  function fmt(n) {
+    n = Number(n || 0);
+    return n.toLocaleString('pt-BR');
+  }
+
+  function destroyChart(key) {
+    if (charts[key]) {
+      charts[key].destroy();
+      charts[key] = null;
+    }
+  }
+
+  function barOptions(horizontal) {
+    return {
+      indexAxis: horizontal ? 'y' : 'x',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        datalabels: {
+          color: '#fff',
+          anchor: 'end',
+          align: 'start',
+          clamp: true,
+          font: { weight: '600', size: 11 },
+          formatter: function (v) { return fmt(v); }
+        },
+        tooltip: {
+          callbacks: {
+            label: function (ctx) { return ' ' + fmt(ctx.raw); }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: '#eef2f7', drawBorder: false },
+          ticks: { color: '#64748b', font: { size: 11 } },
+          beginAtZero: true
+        },
+        y: {
+          grid: { display: horizontal, color: '#eef2f7', drawBorder: false },
+          ticks: { color: '#64748b', font: { size: 11 } },
+          beginAtZero: true
+        }
+      }
+    };
+  }
+
+  function makeBar(canvasId, key, labels, values, color, horizontal) {
+    destroyChart(key);
+    var colors = Array.isArray(color) ? color : labels.map(function () { return color; });
+    charts[key] = new Chart(document.getElementById(canvasId).getContext('2d'), {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          data: values,
+          backgroundColor: colors,
+          borderRadius: 8,
+          maxBarThickness: horizontal ? 22 : 44
+        }]
+      },
+      options: barOptions(!!horizontal)
+    });
+  }
+
+  function makeDonut(canvasId, key, labels, values, legendElId) {
+    var sum = values.reduce(function (a, b) { return a + Number(b || 0); }, 0);
+    destroyChart(key);
+    charts[key] = new Chart(document.getElementById(canvasId).getContext('2d'), {
+      type: 'doughnut',
+      data: {
+        labels: labels,
+        datasets: [{
+          data: values,
+          backgroundColor: labels.map(function (_, i) { return PALETTE[i % PALETTE.length]; }),
+          borderWidth: 0,
+          hoverOffset: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '68%',
+        plugins: {
+          legend: { display: false },
+          datalabels: { display: false },
+          tooltip: {
+            callbacks: {
+              label: function (ctx) {
+                var v = Number(ctx.raw || 0);
+                var pct = sum ? ((v / sum) * 100).toFixed(1) : '0.0';
+                return ' ' + ctx.label + ': ' + pct + '% / ' + fmt(v);
+              }
+            }
+          }
+        }
+      },
+      plugins: [{
+        id: 'centerText_' + key,
+        afterDraw: function (chart) {
+          var meta = chart.getDatasetMeta(0);
+          if (!meta || !meta.data || !meta.data.length) return;
+          var cx = meta.data[0].x;
+          var cy = meta.data[0].y;
+          var ctx = chart.ctx;
+          ctx.save();
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillStyle = '#1a2332';
+          ctx.font = '700 22px Segoe UI, sans-serif';
+          ctx.fillText(fmt(sum), cx, cy - 8);
+          ctx.fillStyle = '#6b778c';
+          ctx.font = '600 11px Segoe UI, sans-serif';
+          ctx.fillText('total', cx, cy + 12);
+          ctx.restore();
+        }
+      }]
+    });
+    if (legendElId) {
+      var html = '';
+      labels.forEach(function (label, i) {
+        var v = values[i] || 0;
+        var pct = sum ? ((v / sum) * 100).toFixed(1) : '0.0';
+        html += '<li><span class="swatch" style="background:' + PALETTE[i % PALETTE.length] + '"></span>' +
+          '<span>' + label + '</span><span class="pct">' + pct + '% / ' + fmt(v) + '</span></li>';
+      });
+      $('#' + legendElId).html(html || '<li>Sem dados</li>');
+    }
+  }
+
+  function makeEvolucao(evolucao) {
+    destroyChart('evolucao');
+    var ctx = document.getElementById('chartEvolucao').getContext('2d');
+    charts.evolucao = new Chart(ctx, {
+      data: {
+        labels: evolucao.meses || [],
+        datasets: [
+          {
+            type: 'bar',
+            label: 'Admissões',
+            data: evolucao.admissoes || [],
+            backgroundColor: '#3b82f6',
+            borderRadius: 6,
+            maxBarThickness: 18,
+            yAxisID: 'y1'
+          },
+          {
+            type: 'bar',
+            label: 'Desligamentos',
+            data: evolucao.desligamentos || [],
+            backgroundColor: '#ef4444',
+            borderRadius: 6,
+            maxBarThickness: 18,
+            yAxisID: 'y1'
+          },
+          {
+            type: 'line',
+            label: 'Total de colaboradores',
+            data: evolucao.totalColaboradores || [],
+            borderColor: '#1a2332',
+            backgroundColor: '#1a2332',
+            pointBackgroundColor: '#1a2332',
+            pointRadius: 3,
+            tension: 0.25,
+            yAxisID: 'y'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: {
+            display: true,
+            position: 'top',
+            align: 'end',
+            labels: { boxWidth: 10, font: { size: 11 }, color: '#64748b' }
+          },
+          datalabels: { display: false },
+          tooltip: {
+            callbacks: {
+              label: function (ctx) { return ' ' + ctx.dataset.label + ': ' + fmt(ctx.raw); }
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { color: '#64748b', font: { size: 11 } }
+          },
+          y: {
+            position: 'left',
+            title: { display: true, text: 'Colaboradores', color: '#64748b', font: { size: 11 } },
+            grid: { color: '#eef2f7', drawBorder: false },
+            ticks: { color: '#64748b', font: { size: 11 } },
+            beginAtZero: true
+          },
+          y1: {
+            position: 'right',
+            title: { display: true, text: 'Movimentações', color: '#64748b', font: { size: 11 } },
+            grid: { display: false },
+            ticks: { color: '#64748b', font: { size: 11 } },
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  }
+
+  function renderKpis(k) {
+    k = k || {};
+    $('#kpiAtivos').text(fmt(k.colaboradoresAtivos));
+    $('#kpiAdmitidos').text(fmt(k.admitidosNoPeriodo));
+    $('#kpiDesligados').text(fmt(k.desligadosNoPeriodo));
+    $('#kpiGestores').text(fmt(k.gestores));
+    var tempo = Number(k.tempoMedioEmpresaAnos || 0);
+    $('#kpiTempoMedio').text(tempo.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + ' anos');
+  }
+
+  function renderAll(data) {
+    data = data || {};
+    $('#dashUpdated').text('Atualizado em ' + (data.atualizadoEm || '—'));
+    renderKpis(data.kpis);
+    makeEvolucao(data.evolucaoQuadro || {});
+
+    var sit = data.porSituacao || { lista: [], total: [] };
+    makeDonut('chartSituacao', 'situacao', sit.lista || [], sit.total || [], 'situacaoLegend');
+
+    var dep = data.porDepartamento || { lista: [], total: [] };
+    makeBar('chartDepartamento', 'departamento', dep.lista || [], dep.total || [], '#3b82f6', true);
+
+    var emp = data.porEmpresa || { lista: [], total: [] };
+    makeBar('chartEmpresa', 'empresa', emp.lista || [], emp.total || [], '#3b82f6', false);
+
+    var fil = data.porFilial || { lista: [], total: [] };
+    makeBar('chartFilial', 'filial', fil.lista || [], fil.total || [], '#14b8a6', false);
+
+    var cc = data.porCentroCusto || { lista: [], total: [] };
+    makeBar('chartCentroCusto', 'centrocusto', cc.lista || [], cc.total || [], '#1a2332', true);
+  }
+
+  function preencherSelect(id, itens, campoLabel, campoId) {
+    var $sel = $('#' + id);
+    (itens || []).forEach(function (item) {
+      $sel.append($('<option></option>').attr('value', item[campoId]).text(item[campoLabel]));
+    });
+  }
+
+  function carregarOpcoesFiltro() {
+    return $.get(URL_OBTER_OPCOES).done(function (opcoes) {
+      opcoes = opcoes || {};
+      preencherSelect('filtroEmpresa', opcoes.empresas, 'nome', 'id');
+      preencherSelect('filtroFilial', opcoes.filiais, 'nome', 'id');
+      preencherSelect('filtroDepartamento', opcoes.departamentos, 'nome', 'id');
+      preencherSelect('filtroSituacao', opcoes.situacoes, 'nome', 'id');
+    });
+  }
+
+  function filtrosAtuais() {
+    return {
+      empresa: $('#filtroEmpresa').val() || '',
+      filial: $('#filtroFilial').val() || '',
+      departamento: $('#filtroDepartamento').val() || '',
+      situacao: $('#filtroSituacao').val() || '',
+      meses: $('#filtroPeriodo').val() || '12'
+    };
+  }
+
+  function carregarDados() {
+    $('#dashError').hide();
+    $.get(URL_OBTER_DADOS, filtrosAtuais())
+      .done(function (data) {
+        renderAll(data);
+      })
+      .fail(function (xhr) {
+        $('#dashError').text('Não foi possível carregar os dados (' + (xhr.status || '?') + ').').show();
+      });
+  }
+
+  function bootDashboard() {
+    $('#filterBar').on('change', 'select', carregarDados);
+    carregarOpcoesFiltro().always(carregarDados);
+  }
+
+  if (window.jQuery) {
+    $(bootDashboard);
+  } else {
+    window.addEventListener('load', bootDashboard);
+  }
+})();
+</script>";":root {
+  --dash-bg: #f3f5f8;
+  --dash-card: #ffffff;
+  --dash-border: #e6ebf1;
+  --dash-text: #1a2332;
+  --dash-muted: #6b778c;
+  --dash-blue: #3b82f6;
+  --dash-teal: #14b8a6;
+  --dash-green: #22c55e;
+  --dash-red: #ef4444;
+  --dash-orange: #f59e0b;
+  --dash-indigo: #6366f1;
+  --dash-slate: #64748b;
+  --dash-radius: 14px;
+  --dash-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 4px 16px rgba(16, 24, 40, 0.04);
+}
+
+body.font-admin {
+  background: var(--dash-bg) !important;
+  color: var(--dash-text);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#admin.dash-v3,
+.dash-v3 {
+  background: var(--dash-bg) !important;
+  color: var(--dash-text);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  padding: 20px 22px 36px;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+.dash-v3 *,
+.dash-v3 *::before,
+.dash-v3 *::after {
+  box-sizing: border-box;
+}
+
+.dash-v3-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.dash-v3-header h1 {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--dash-text);
+}
+
+.dash-v3-header .sub {
+  margin: 4px 0 0;
+  color: var(--dash-muted);
+  font-size: 0.92rem;
+}
+
+.dash-v3-updated {
+  color: var(--dash-muted);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  padding-top: 6px;
+}
+
+/* =========================================================================
+   Barra de filtros — NOVO nesta tela (o dashboard de referência não tinha
+   filtros). Mesmo cartão visual dos kpi-card/dash-panel, só mais baixo.
+   ========================================================================= */
+
+.filter-bar {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.filter-field {
+  position: relative;
+  background: var(--dash-card);
+  border: 1px solid var(--dash-border);
+  border-radius: var(--dash-radius);
+  box-shadow: var(--dash-shadow);
+  padding: 9px 30px 9px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-field .filter-ico {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  background: #eef2f7;
+  color: var(--dash-slate);
+}
+
+.filter-field .filter-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.filter-field label {
+  font-size: 0.7rem;
+  color: var(--dash-muted);
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.filter-field select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0;
+  background: transparent;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--dash-text);
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.filter-field select:focus {
+  outline: none;
+}
+
+.filter-field::after {
+  content: "";
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid var(--dash-muted);
+  border-bottom: 2px solid var(--dash-muted);
+  transform: translateY(-65%) rotate(45deg);
+  pointer-events: none;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.kpi-card {
+  background: var(--dash-card);
+  border: 1px solid var(--dash-border);
+  border-radius: var(--dash-radius);
+  box-shadow: var(--dash-shadow);
+  padding: 16px 16px 14px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.kpi-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 28px;
+  color: var(--dash-muted);
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.kpi-label {
+  display: block;
+  line-height: 1.25;
+}
+
+.kpi-ico {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.kpi-ico i {
+  display: block;
+  line-height: 1;
+  transform: translateY(0.5px);
+}
+
+.kpi-ico.blue { background: #dbeafe; color: #2563eb; }
+.kpi-ico.teal { background: #ccfbf1; color: #0d9488; }
+.kpi-ico.sky { background: #e0f2fe; color: #0284c7; }
+.kpi-ico.green { background: #dcfce7; color: #16a34a; }
+.kpi-ico.red { background: #fee2e2; color: #dc2626; }
+.kpi-ico.orange { background: #ffedd5; color: #c2410c; }
+
+.kpi-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--dash-text);
+  margin-top: 10px;
+  width: 100%;
+}
+
+.kpi-sub {
+  font-size: 0.78rem;
+  color: var(--dash-muted);
+  line-height: 1.3;
+  margin-top: auto;
+  padding-top: 8px;
+  min-height: 1.3em;
+  width: 100%;
+}
+
+.kpi-sub--empty {
+  visibility: hidden;
+}
+
+.kpi-sub .open {
+  color: var(--dash-red);
+  font-weight: 600;
+}
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.dash-panel {
+  background: var(--dash-card);
+  border: 1px solid var(--dash-border);
+  border-radius: var(--dash-radius);
+  box-shadow: var(--dash-shadow);
+  padding: 16px 16px 12px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-panel.full {
+  margin-bottom: 14px;
+}
+
+.panel-title {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dash-text);
+}
+
+.panel-sub {
+  margin: 0 0 10px;
+  font-size: 0.8rem;
+  color: var(--dash-muted);
+}
+
+.chart-box {
+  position: relative;
+  flex: 1;
+  min-height: 210px;
+}
+
+.chart-box.tall {
+  min-height: 260px;
+}
+
+.donut-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 8px;
+  flex: 1;
+  align-items: center;
+}
+
+.donut-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.donut-legend li {
+  display: grid;
+  grid-template-columns: 10px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--dash-text);
+}
+
+.donut-legend .swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.donut-legend .pct {
+  color: var(--dash-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* =========================================================================
+   Distribuição dos colaboradores — três mini-gráficos lado a lado dentro
+   de um único dash-panel.full (empresa / filial / centro de custo). NOVO
+   nesta tela.
+   ========================================================================= */
+
+.dist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  flex: 1;
+}
+
+.dist-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.dist-item h4 {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--dash-text);
+}
+
+.dist-item .chart-box {
+  min-height: 220px;
+}
+
+.dash-loading,
+.dash-error {
+  padding: 28px;
+  text-align: center;
+  color: var(--dash-muted);
+}
+
+.dash-error {
+  color: #b91c1c;
+}
+
+@media (max-width: 1100px) {
+  .kpi-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .filter-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dist-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .dash-v3-header {
+    flex-direction: column;
+  }
+  .kpi-row,
+  .chart-row,
+  .donut-layout,
+  .filter-bar,
+  .dist-grid {
+    grid-template-columns: 1fr;
+  }
+}";"null";"null";"N";"null";"null";"N";"null";"2026-08-14 13:14:22";"2";"2026-08-14 13:25:53";"2";"eff0335c15a4c10bbe22ae356b5d7c89";

@@ -1,0 +1,3415 @@
+[
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.admissao.forms.stepperbeneficio.vue",
+    "nome": "StepperBeneficioVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/stepperbeneficio/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/stepperbeneficio/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/stepperbeneficio/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.admissao.forms.steps.beneficios.vue",
+    "nome": "BeneficiosVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/steps/beneficios/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/steps/beneficios/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/steps/beneficios/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/admissao/forms/steps/beneficios/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.adesao.transporte.vue",
+    "nome": "AdesaoTransporteVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/adesao/transporte/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/adesao/transporte/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/adesao/transporte/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/adesao/transporte/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.flex.vue",
+    "nome": "EscolhasFlexVue",
+    "termos": [
+      "beneficio",
+      "flex"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flex/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flex/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flex/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.flexdetalhes.vue",
+    "nome": "EscolhaDetalhesFlexVue",
+    "termos": [
+      "beneficio",
+      "flex"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flexdetalhes/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flexdetalhes/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flexdetalhes/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/flexdetalhes/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.gridbeneficiocard.vue",
+    "nome": "GridBeneficioCard",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/gridbeneficiocard/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/gridbeneficiocard/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/gridbeneficiocard/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/gridbeneficiocard/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.listagem.vue",
+    "nome": "BeneficiosListagemVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/listagem/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/listagem/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/listagem/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.SlideBeneficioCard.vue",
+    "nome": "SlideBeneficioCard",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideBeneficioCard/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideBeneficioCard/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideBeneficioCard/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideBeneficioCard/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.SlideDependenteCard.vue",
+    "nome": "SlideDependenteCard",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideDependenteCard/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideDependenteCard/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideDependenteCard/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/SlideDependenteCard/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.beneficios.vue",
+    "nome": "BeneficiosVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/beneficios/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.brh_coparticipacao",
+    "nome": "Coparticipacao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/brh_coparticipacao/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/brh_coparticipacao/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/brh_coparticipacao/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/brh_coparticipacao/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.CestaNatal.vue",
+    "nome": "CestaNatalVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/CestaNatal/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/CestaNatal/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/CestaNatal/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/CestaNatal/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.compraBeneficios",
+    "nome": "CompraBeneficios",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/compraBeneficios/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/compraBeneficios/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/compraBeneficios/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/compraBeneficios/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.compraBeneficiosDetalhesV2",
+    "nome": "CompraBeneficiosDetalhesV2",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/compraBeneficiosDetalhesV2/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/compraBeneficiosDetalhesV2/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.comprovante.vue",
+    "nome": "ComprovanteVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/comprovante/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/comprovante/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.coparticipacao.vue",
+    "nome": "CoparticipacaoVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/coparticipacao/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/coparticipacao/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/coparticipacao/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.distribuicao.vue",
+    "nome": "DistribuicaoVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/distribuicao/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/distribuicao/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/distribuicao/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/distribuicao/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.exclusao.vue",
+    "nome": "ExclusaoVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/exclusao/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/exclusao/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/exclusao/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/exclusao/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.fretado.vue",
+    "nome": "FretadoVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/fretado/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/fretado/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/fretado/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/fretado/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.inclusao.vue",
+    "nome": "InclusaoVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/inclusao/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/inclusao/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/inclusao/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.odontologico.vue",
+    "nome": "OdontologicoVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/odontologico/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/odontologico/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/odontologico/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/odontologico/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.previdencia.vue",
+    "nome": "PrevidenciaVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/previdencia/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/previdencia/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/previdencia/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.refeitorio.vue",
+    "nome": "RefeitorioVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/refeitorio/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/refeitorio/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/refeitorio/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/refeitorio/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.refeitorio_verba.list",
+    "nome": "Desconto Refeitório - Listagem",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/refeitorio_verba/list/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/refeitorio_verba/list/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.resumoBeneficio.vue",
+    "nome": "ResumoBeneficioVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/resumoBeneficio/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/resumoBeneficio/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/resumoBeneficio/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/resumoBeneficio/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.titularCard.vue",
+    "nome": "TitularCardVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/titularCard/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/titularCard/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/titularCard/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.beneficio.forms.valetransporte.vue",
+    "nome": "ValeTransporteVue",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/valetransporte/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/valetransporte/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/valetransporte/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/beneficio/forms/valetransporte/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.cadastro.forms.beneficio.list",
+    "nome": "Benefício - Listagem",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/beneficio/list/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/beneficio/list/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/beneficio/list/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.cadastro.forms.beneficio_dependente.list",
+    "nome": "Benefício Dependente - Listagem",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/beneficio_dependente/list/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/beneficio_dependente/list/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/beneficio_dependente/list/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.cadastro.forms.compra_beneficio.list",
+    "nome": "Compra de Benefício - Listagem",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/compra_beneficio/list/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/compra_beneficio/list/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/compra_beneficio/list/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.cadastro.forms.dependentebeneficiocard.vue",
+    "nome": "DependenteBeneficioCard",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/dependentebeneficiocard/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/dependentebeneficiocard/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/dependentebeneficiocard/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/cadastro/forms/dependentebeneficiocard/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.integracao.forms.api.localization",
+    "nome": "LocalizationAPI",
+    "termos": [
+      "integracao"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/api/localization/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/api/localization/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.integracao.forms.dataimp_import.edit",
+    "nome": "Importações - Editar",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": null,
+      "raw_payload": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/edit/payload.raw.txt",
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/edit/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.integracao.forms.dataimp_import.list",
+    "nome": "Importações - Buscar",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/list/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/list/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.integracao.forms.dataimp_import.log",
+    "nome": "Importações - Log",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/log/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/log/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/log/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.integracao.forms.dataimp_import.table",
+    "nome": "Importações - Tabela",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/table/index.html",
+      "css": null,
+      "javascript": null,
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/integracao/forms/dataimp_import/table/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.loja.forms.loja.compras.vue",
+    "nome": "LojaComprasVue",
+    "termos": [
+      "compra"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/loja/forms/loja/compras/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/loja/forms/loja/compras/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/loja/forms/loja/compras/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.relatorio.forms.beneficio",
+    "nome": "RelatorioBeneficio",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/relatorio/forms/beneficio/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/relatorio/forms/beneficio/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/relatorio/forms/beneficio/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/relatorio/forms/beneficio/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.utils.components.filescard.vue",
+    "nome": "ComponentsFilesCardVue",
+    "termos": [
+      "file"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/utils/components/filescard/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/utils/components/filescard/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/utils/components/filescard/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.wizard.forms.steps.importacao.vue",
+    "nome": "StepsImportacaoVue",
+    "termos": [
+      "import"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacao/vue/index.html",
+      "css": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacao/vue/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacao/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacao/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "brhain.rh.wizard.forms.steps.importacaodetalhes.vue",
+    "nome": "StepsImportacaoDetalhesVue",
+    "termos": [
+      "import"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacaodetalhes/vue/index.html",
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacaodetalhes/vue/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/brhain/rh/wizard/forms/steps/importacaodetalhes/vue/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "inpaas.devstudio.forms.packageimporter",
+    "nome": "Package Importer",
+    "termos": [
+      "import"
+    ],
+    "arquivos": {
+      "html": null,
+      "css": null,
+      "javascript": "referencias/ambiente-completo/formularios/inpaas/devstudio/forms/packageimporter/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/inpaas/devstudio/forms/packageimporter/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "inpaas.studio.forms.search",
+    "nome": "Search File",
+    "termos": [
+      "file"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/inpaas/studio/forms/search/index.html",
+      "css": "referencias/ambiente-completo/formularios/inpaas/studio/forms/search/style.css",
+      "javascript": "referencias/ambiente-completo/formularios/inpaas/studio/forms/search/script.js",
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/inpaas/studio/forms/search/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "studiov2.forms.fields.file",
+    "nome": "File",
+    "termos": [
+      "file"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/studiov2/forms/fields/file/index.html",
+      "css": null,
+      "javascript": null,
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/studiov2/forms/fields/file/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "formulario",
+    "ds_key": "studiov2.forms.sidebar.config-fields.file",
+    "nome": "Config Fields | File",
+    "termos": [
+      "file"
+    ],
+    "arquivos": {
+      "html": "referencias/ambiente-completo/formularios/studiov2/forms/sidebar/config-fields/file/index.html",
+      "css": null,
+      "javascript": null,
+      "raw_payload": null,
+      "raw_record": "referencias/ambiente-completo/formularios/studiov2/forms/sidebar/config-fields/file/registro.raw.txt"
+    }
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.admissao.service.beneficios",
+    "nome": "BeneficiosService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/admissao/service/beneficios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.admissao.utils.beneficios",
+    "nome": "BeneficiosUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/admissao/utils/beneficios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.agendamento.integrador.colaborador.beneficio",
+    "nome": "IntegradorColaboradorBeneficio",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/agendamento/integrador/colaborador/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.agendamento.integrador.dependente.beneficio",
+    "nome": "IntegradorDependenteBeneficio",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/agendamento/integrador/dependente/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.academia.desconto.utils",
+    "nome": "AcademiaDescontoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/academia/desconto/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.buttons.beneficio",
+    "nome": "BeneficioButtons",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/buttons/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.buttons.beneficiodependente",
+    "nome": "BeneficioDependenteButtons",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/buttons/beneficiodependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.buttons.calculoverba",
+    "nome": "CalculoVerbaButtons",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/buttons/calculoverba.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.buttons.movimentacao",
+    "nome": "MovimentacaoButtons",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/buttons/movimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.compraBeneficios.botoes",
+    "nome": "CompraBeneficiosBotoes",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/compraBeneficios/botoes.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.comprovante.utils",
+    "nome": "ComprovanteUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/comprovante/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.controller.calculo_verba.edit",
+    "nome": "CalculoVerbaControllerEdit",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/controller/calculo_verba/edit.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.controller.compra_beneficio.edit",
+    "nome": "CompraBeneficioControllerEdit",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/controller/compra_beneficio/edit.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade",
+    "nome": "Elegibilidade",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.alimentacao",
+    "nome": "ElegibilidadeAlimentacao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/alimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.base",
+    "nome": "ElegibilidadeBase",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/base.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.base.naoseguravel",
+    "nome": "ElegibilidadeBaseNaoseguravel",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/base/naoseguravel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.base.seguravel",
+    "nome": "ElegibilidadeBaseSeguravel",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/base/seguravel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.config.beneficios",
+    "nome": "ElegibilidadeConfigBeneficios",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/config/beneficios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.creche",
+    "nome": "ElegibilidadeCreche",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/creche.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.criterio.contrato",
+    "nome": "ElegibilidadeCriterioContrato",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/criterio/contrato.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.massa.teste",
+    "nome": "ElegibilidadeMassaTeste",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/massa/teste.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.academia",
+    "nome": "ElegibilidadeNaoseguravelAcademia",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/academia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.creche",
+    "nome": "ElegibilidadeNaoseguravelCreche",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/creche.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.generico",
+    "nome": "ElegibilidadeNaoseguravelGenerico",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/generico.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.plano",
+    "nome": "ElegibilidadeNaoseguravelPlano",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/plano.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.valealimentacao",
+    "nome": "ElegibilidadeNaoseguravelValealimentacao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/valealimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.valerefeicao",
+    "nome": "ElegibilidadeNaoseguravelValerefeicao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/valerefeicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.naoseguravel.valetransporte",
+    "nome": "ElegibilidadeNaoseguravelValetransporte",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/naoseguravel/valetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.odonto",
+    "nome": "ElegibilidadeOdonto",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/odonto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.plano.buscador",
+    "nome": "ElegibilidadePlanoBuscador",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/plano/buscador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.previdencia",
+    "nome": "ElegibilidadePrevidencia",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/previdencia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.refeicao",
+    "nome": "ElegibilidadeRefeicao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/refeicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.refeitorio",
+    "nome": "ElegibilidadeRefeitorio",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/refeitorio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.saude",
+    "nome": "ElegibilidadeSaude",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/saude.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.seguravel.odonto",
+    "nome": "ElegibilidadeSeguravelOdonto",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/seguravel/odonto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.seguravel.saude",
+    "nome": "ElegibilidadeSeguravelSaude",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/seguravel/saude.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.seguravel.vida",
+    "nome": "ElegibilidadeSeguravelVida",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/seguravel/vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.seguro.vida",
+    "nome": "ElegibilidadeSeguroVida",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/seguro/vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.teste",
+    "nome": "ElegibilidadeTeste",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/teste.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.teste.academia",
+    "nome": "ElegibilidadeTesteAcademia",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/teste/academia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.teste.plano.buscador",
+    "nome": "ElegibilidadeTestePlanoBuscador",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/teste/plano/buscador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.valetransporte",
+    "nome": "ElegibilidadeValeTransporte",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/valetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidade.validacao.real",
+    "nome": "ElegibilidadeValidacaoReal",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidade/validacao/real.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.elegibilidadedependente",
+    "nome": "Elegibilidadedependente",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/elegibilidadedependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.gremio.desconto.utils",
+    "nome": "GremioDescontoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/gremio/desconto/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.implatacao.beneficios",
+    "nome": "ImplatacaoBeneficios",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/implatacao/beneficios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.academia.desconto",
+    "nome": "ImportAcademiaDesconto",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/academia/desconto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.academia.totalpass",
+    "nome": "ImportAcademiaTotalpass",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/academia/totalpass.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.academia.wellhub",
+    "nome": "ImportAcademiaWellhub",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/academia/wellhub.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.ajuste_compra",
+    "nome": "ImportAjusteCompra",
+    "termos": [
+      "beneficio",
+      "compra",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/ajuste_compra.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.ajuste_verba",
+    "nome": "ImportAjusteVerba",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/ajuste_verba.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.beneficiosestrategico",
+    "nome": "ImportBeneficiosEstrategico",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/beneficiosestrategico.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.compra",
+    "nome": "ImportCompra",
+    "termos": [
+      "beneficio",
+      "compra",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/compra.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.compra.beneficio.credito",
+    "nome": "ImportCompraBeneficioCredito",
+    "termos": [
+      "beneficio",
+      "compra",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/compra/beneficio/credito.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.elegibilidade",
+    "nome": "ImportElegibilidade",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/elegibilidade.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.elegibilidadeitem",
+    "nome": "ImportElegibilidadeItem",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/elegibilidadeitem.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.gestaointeligente",
+    "nome": "ImportGestaoInteligente",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/gestaointeligente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.gremio.desconto",
+    "nome": "ImportGremioDesconto",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/gremio/desconto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.implantacaobeneficio",
+    "nome": "ImportImplantacaoBeneficio",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/implantacaobeneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.implantacaobeneficiovida",
+    "nome": "ImportImplantacaoBeneficioVida",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/implantacaobeneficiovida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.previdencia",
+    "nome": "ImportPrevidencia",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/previdencia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.rateiovt",
+    "nome": "ImportRateioVT",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/rateiovt.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.refeitorio.verba",
+    "nome": "ImportRefeitorioVerba",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/refeitorio/verba.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.transporte.suspensao",
+    "nome": "ImportTransporteSuspensao",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/transporte/suspensao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.unidade.entrega",
+    "nome": "ImportUnidadeEntrega",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/unidade/entrega.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.import.vt.admissional",
+    "nome": "ImportVtAdmissional",
+    "termos": [
+      "beneficio",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/import/vt/admissional.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.mixin.js",
+    "nome": "BeneficioMixinJs",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/mixin/js.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.movimentacao",
+    "nome": "Movimentacao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/movimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.movimentacao.seguro.vida",
+    "nome": "MovimentacaoSeguroVida",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/movimentacao/seguro/vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.operadora",
+    "nome": "Operadora",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/operadora.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.rateio.buttons",
+    "nome": "RateioButtons",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/rateio/buttons.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.seguravel.odonto",
+    "nome": "SeguravelOdonto",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/seguravel/odonto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.seguravel.saude",
+    "nome": "SeguravelSaude",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/seguravel/saude.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.seguravel.vida",
+    "nome": "SeguravelVida",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/seguravel/vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.adesaotransporte",
+    "nome": "AdesaoTransporteService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/adesaotransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.beneficio",
+    "nome": "BeneficioService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.campanha",
+    "nome": "CampanhaService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/campanha.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.cestanatal",
+    "nome": "CestaNatalService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/cestanatal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.compraBeneficiosService",
+    "nome": "CompraBeneficiosService",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/compraBeneficiosService.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.comprovante",
+    "nome": "ComprovanteService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/comprovante.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.coparticipacao",
+    "nome": "CoparticipacaoService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/coparticipacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.distribuicao",
+    "nome": "DistribuicaoService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/distribuicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.escolhas",
+    "nome": "EscolhasService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/escolhas.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.gestaobeneficio",
+    "nome": "GestaoBeneficioService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/gestaobeneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.odontologico",
+    "nome": "OdontologicoService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/odontologico.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.previdencia",
+    "nome": "PrevidenciaService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/previdencia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.transferencia",
+    "nome": "TransferenciaService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/transferencia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.service.valetransporte",
+    "nome": "ValeTransporteService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/service/valetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.adesaotransporte",
+    "nome": "AdesaoTransporteUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/adesaotransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.bateelegibilidade",
+    "nome": "BateElegibilidadeUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/bateelegibilidade.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.beneficio",
+    "nome": "BeneficioUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.beneficio.dependente",
+    "nome": "BeneficioDependenteUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/beneficio/dependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.calculoverba",
+    "nome": "CalculoVerbaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/calculoverba.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.calculoverbarescisoria",
+    "nome": "CalculoVerbaRescisoria",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/calculoverbarescisoria.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.campanha",
+    "nome": "CampanhaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/campanha.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.capital.multiploempresa",
+    "nome": "CapitalMultiploEmpresaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/capital/multiploempresa.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.cestanatal",
+    "nome": "CestaNatalUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/cestanatal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.compra.beneficio",
+    "nome": "CompraBeneficioUtils",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/compra/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.compra.beneficio.credito",
+    "nome": "UtilsCompraBeneficioCredito",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/compra/beneficio/credito.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.compra.calculo.admissional",
+    "nome": "CompraCalculoAdmissionalUtils",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/compra/calculo/admissional.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.compra.calculo.mensal",
+    "nome": "CompraCalculoMensalUtils",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/compra/calculo/mensal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.compra.calculo.vale.presente",
+    "nome": "CompraCalculoValePresenteUtils",
+    "termos": [
+      "beneficio",
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/compra/calculo/vale/presente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.contrato",
+    "nome": "ContratoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/contrato.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.coparticipacao",
+    "nome": "CoparticipacaoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/coparticipacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.detalhetransporte",
+    "nome": "DetalheTransporteUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/detalhetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.distribuicao",
+    "nome": "DistribuicaoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/distribuicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.elegibilidade",
+    "nome": "ElegibilidadeUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/elegibilidade.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.elegibilidade.seguro.vida",
+    "nome": "ElegibilidadeSeguroVidaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/elegibilidade/seguro/vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.escolhas",
+    "nome": "EscolhasUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/escolhas.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.faixaEtaria",
+    "nome": "FaixaEtariaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/faixaEtaria.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.fretado",
+    "nome": "FretadoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/fretado.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.gestaobeneficio",
+    "nome": "GestaoBeneficioUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/gestaobeneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.movimentacao",
+    "nome": "MovimentacaoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/movimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.movimentacaolote",
+    "nome": "MovimentacaoLoteUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/movimentacaolote.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.odontologico",
+    "nome": "OdontologicoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/odontologico.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.precificacao",
+    "nome": "PrecificacaoUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/precificacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.previdencia",
+    "nome": "PrevidenciaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/previdencia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.rateio",
+    "nome": "RateioUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/rateio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.refeitorio",
+    "nome": "RefeitorioUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/refeitorio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.regra.segurovida",
+    "nome": "RegraSeguroVidaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/regra/segurovida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.saude",
+    "nome": "SaudeUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/saude.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.transferencia",
+    "nome": "TransferenciaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/transferencia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.valecombustivel",
+    "nome": "ValeCombustivelUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/valecombustivel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.valecultura",
+    "nome": "ValeCulturaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/valecultura.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.valetransporte",
+    "nome": "ValeTransporteUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/valetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.vavr",
+    "nome": "VAVRUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/vavr.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.utils.verbarescisoria",
+    "nome": "VerbaRescisoriaUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/utils/verbarescisoria.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.beneficio.verbarescisoria.buttons",
+    "nome": "VerbaRescisoriaButtons",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/beneficio/verbarescisoria/buttons.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.cadastro.vida",
+    "nome": "ImportCadastroVida",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/cadastro/vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.feriado",
+    "nome": "ImportFeriado",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/feriado.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.holerite",
+    "nome": "ImportHolerite",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/holerite.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.nacionalidade",
+    "nome": "ImportNacionalidade",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/nacionalidade.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.transporte.alelo",
+    "nome": "ImportTransporteAlelo",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/transporte/alelo.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.transporte.trecho",
+    "nome": "ImportTransporteTrecho",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/transporte/trecho.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.cadastro.import.transporte.trecho.pluxee",
+    "nome": "ImportTransporteTrechoPluxee",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/cadastro/import/transporte/trecho/pluxee.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.conteudo.public_file",
+    "nome": "public_file",
+    "termos": [
+      "file"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/conteudo/public_file.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.buttons.exportacao",
+    "nome": "ExportacaoButtons",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/buttons/exportacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.compilado.rubricas.rescisorias",
+    "nome": "CompiladoRubricasRescisorias",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/compilado/rubricas/rescisorias.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.extrato.admissional.complementar.vt",
+    "nome": "ExtratoAdmissionalComplementarVt",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/extrato/admissional/complementar/vt.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layout.afastamento.full",
+    "nome": "LayoutAfastamentoFull",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layout/afastamento/full.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.Layout.Relatorio.Movimentacao.Academia",
+    "nome": "LayoutRelatorioMovimentacaoAcademia",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/Layout/Relatorio/Movimentacao/Academia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layout.relatorio.movimentacao.educacao",
+    "nome": "LayoutRelatorioMovimentacaoEducacao",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layout/relatorio/movimentacao/educacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layout.relatorio.movimentacao.PAC",
+    "nome": "LayoutRelatorioMovimentacaoPAC",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layout/relatorio/movimentacao/PAC.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layout.relatorio.movimentacao.Viagem",
+    "nome": "LayoutRelatorioMovimentacaoViagem",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layout/relatorio/movimentacao/Viagem.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.acesso.funcionarios",
+    "nome": "LayoutsAcessoFuncionarios",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/acesso/funcionarios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.agendamento.delta",
+    "nome": "BrhainRhExportacaoLayoutsAgendamentoDelta",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/agendamento/delta.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.alelo",
+    "nome": "LayoutsAleloVaVr",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/alelo.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.alelo.combustivel",
+    "nome": "LayoutsAleloCombustivel",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/alelo/combustivel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.alelo.cultura",
+    "nome": "LayoutsAleloCultura",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/alelo/cultura.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.alelo.transporte",
+    "nome": "LayoutsAleloTransporte",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/alelo/transporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.alelo.transporte.txt",
+    "nome": "LayoutsAleloTransporteTxt",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/alelo/transporte/txt.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.amil",
+    "nome": "LayoutsAmil",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/amil.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.ben",
+    "nome": "LayoutsBen",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/ben.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.brhain",
+    "nome": "LayoutsbRHainCompra",
+    "termos": [
+      "compra",
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/brhain.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.brhain.movimentacao",
+    "nome": "LayoutsBrhainMovimentacao",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/brhain/movimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.caixa",
+    "nome": "LayoutsCaixa",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/caixa.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.caju",
+    "nome": "LayoutsCaju",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/caju.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.candidato",
+    "nome": "LayoutsCandidato",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/candidato.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.cestabasica",
+    "nome": "LayoutsCestaBasica",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/cestabasica.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.cobertura.creche.baba",
+    "nome": "LayoutsCoberturaCrecheBaba",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/cobertura/creche/baba.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.flash",
+    "nome": "LayoutsFlash",
+    "termos": [
+      "export",
+      "flash"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/flash.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.howden",
+    "nome": "ExportacaoLayoutsHowden",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/howden.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.pluxee",
+    "nome": "LayoutsPluxee",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/pluxee.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.pluxeetxt",
+    "nome": "LayoutsPluxeeTxt",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/pluxeetxt.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.pluxeetxtvtmensal",
+    "nome": "LayoutsPluxeetxtVTMensal",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/pluxeetxtvtmensal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.pluxeevtadmissional",
+    "nome": "LayoutsPluxeeVTAdmissional",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/pluxeevtadmissional.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.pluxeevtmensal",
+    "nome": "LayoutsPluxeevtmensal",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/pluxeevtmensal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.prudential",
+    "nome": "LayoutsPrudential",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/prudential.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.rb",
+    "nome": "LayoutsRb",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/rb.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.rbvt",
+    "nome": "LayoutsRbVT",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/rbvt.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.academia",
+    "nome": "LayoutsRelatorioAcademia",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/academia.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.cestanatal",
+    "nome": "LayoutsRelatorioCestanatal",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/cestanatal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.coberturas.odonto.dependentes",
+    "nome": "LayoutsRelatorioCoberturasOdontoDependentes",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/coberturas/odonto/dependentes.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.coberturas.odonto.titulares",
+    "nome": "LayoutsRelatorioCoberturasOdontoTitulares",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/coberturas/odonto/titulares.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.coberturas.saude.dependentes",
+    "nome": "LayoutsRelatorioCoberturasSaudeDependentes",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/coberturas/saude/dependentes.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.coberturas.saude.titulares",
+    "nome": "LayoutsRelatorioCoberturasSaudeTitulares",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/coberturas/saude/titulares.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.colaboradores.ativos",
+    "nome": "LayoutsRelatorioColaboradoresAtivos",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/colaboradores/ativos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.dependentes.ativos",
+    "nome": "LayoutsRelatorioDependentesAtivos",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/dependentes/ativos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.dependentes.inativos",
+    "nome": "LayoutsRelatorioDependentesInativos",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/dependentes/inativos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.desligados",
+    "nome": "LayoutsRelatorioDesligados",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/desligados.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.enderecoentrega",
+    "nome": "LayoutsRelatorioEnderecoEntrega",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/enderecoentrega.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.escolha.odonto",
+    "nome": "LayoutsRelatorioEscolhaOdonto",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/escolha/odonto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.gremio",
+    "nome": "LayoutsRelatorioGremio",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/gremio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.historicoeventos",
+    "nome": "LayoutsRelatorioHistoricoEventos",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/historicoeventos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.novosadmitidos",
+    "nome": "LayoutsRelatorioNovosadmitidos",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/novosadmitidos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.pac",
+    "nome": "LayoutsRelatorioPac",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/pac.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.refeitorio",
+    "nome": "LayoutsRelatorioRefeitorio",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/refeitorio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.segurovida",
+    "nome": "LayoutsRelatorioSegurovida",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/segurovida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.solicitacao.refeicao",
+    "nome": "LayoutsRelatorioSolicitacaoRefeicao",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/solicitacao/refeicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.solicitacao.valetransporte",
+    "nome": "LayoutsRelatorioSolicitacaoValetransporte",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/solicitacao/valetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.valealimentacao",
+    "nome": "LayoutsRelatorioValealimentacao",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/valealimentacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.valecombustivel",
+    "nome": "LayoutsRelatorioValecombustivel",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/valecombustivel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.valerefeicao",
+    "nome": "LayoutsRelatorioValerefeicao",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/valerefeicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.valetransporte",
+    "nome": "LayoutsRelatorioValetransporte",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/valetransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.relatorio.vt.admissional",
+    "nome": "LayoutsRelatorioVtAdmissional",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/relatorio/vt/admissional.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.sas",
+    "nome": "LayoutsSas",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/sas.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.semparar",
+    "nome": "LayoutsSemparar",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/semparar.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.sobam",
+    "nome": "LayoutsSobam",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/sobam.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.swile",
+    "nome": "LayoutsSwile",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/swile.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.swile.vr",
+    "nome": "LayoutsSwileVr",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/swile/vr.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.ticket.combustivel",
+    "nome": "LayoutsTicketCombustivel",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/ticket/combustivel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.uniodonto",
+    "nome": "LayoutsUniodonto",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/uniodonto.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.layouts.verba",
+    "nome": "LayoutsVerba",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/layouts/verba.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.movimentacao.segurovida",
+    "nome": "MovimentacaoSegurovida",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/movimentacao/segurovida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.relatorio.utils",
+    "nome": "RelatorioUtils",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/relatorio/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.exportacao.utils.exportacao",
+    "nome": "ExportacaoUtils",
+    "termos": [
+      "export"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/exportacao/utils/exportacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.gestao.controller.beneficio.edit",
+    "nome": "BeneficioControllerEdit",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/gestao/controller/beneficio/edit.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.gestao.import.afastamento",
+    "nome": "ImportAfastamento",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/gestao/import/afastamento.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.gestao.import.falta",
+    "nome": "ImportFalta",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/gestao/import/falta.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.gestao.import.subestipulante",
+    "nome": "ImportSubestipulante",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/gestao/import/subestipulante.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.installation.import.configuracoesPadroes",
+    "nome": "ImportConfiguracoesPadroes",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/installation/import/configuracoesPadroes.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.installation.import.importacaoLayout",
+    "nome": "ImportacaoLayout",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/installation/import/importacaoLayout.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.installation.import.table",
+    "nome": "ImportTable",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/installation/import/table.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.businessdelegate.dataimportutils",
+    "nome": "BusinessdelegateDataimportutils",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/businessdelegate/dataimportutils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.businessdelegate.entitydao",
+    "nome": "Entitydao",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/businessdelegate/entitydao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.businessdelegate.entityutils",
+    "nome": "Entityutils",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/businessdelegate/entityutils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.businessdelegate.formlogerror",
+    "nome": "BusinessdelegateFormlogerror",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/businessdelegate/formlogerror.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.businessdelegate.utils",
+    "nome": "BusinessdelegateUtils",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/businessdelegate/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.colaborador",
+    "nome": "Colaborador",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/colaborador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.colaborador.integrador",
+    "nome": "ColaboradorIntegrador",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/colaborador/integrador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.coreUtilsBusinessDelegate",
+    "nome": "CoreUtilsBusinessDelegate",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/coreUtilsBusinessDelegate.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.dependente",
+    "nome": "Dependente",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/dependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.dependente.integrador",
+    "nome": "DependenteIntegrador",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/dependente/integrador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.import.basedigio",
+    "nome": "ImportBaseDigio",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/import/basedigio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.import.colaborador",
+    "nome": "ImportColaborador",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/import/colaborador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.import.colaborador.lg",
+    "nome": "ImportColaboradorLG",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/import/colaborador/lg.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.import.dependente",
+    "nome": "ImportDependente",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/import/dependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.importacao",
+    "nome": "Importacao",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/importacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.importlog.utils",
+    "nome": "ImportLogUtils",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/importlog/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.importUsersDelegate",
+    "nome": "ImportUsersDelegate",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/importUsersDelegate.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.integrador.funcionario.api",
+    "nome": "IntegradorFuncionarioApi",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/integrador/funcionario/api.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.layout",
+    "nome": "Layout",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/layout.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.patterns.importLogService",
+    "nome": "ImportLogService",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/patterns/importLogService.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.restservice.coreutils",
+    "nome": "coreutils",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/restservice/coreutils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.restservice.dataimport",
+    "nome": "dataimport",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/restservice/dataimport.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.service.integrador",
+    "nome": "IntegradorService",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/service/integrador.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.service.lg",
+    "nome": "LGService",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/service/lg.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.utils",
+    "nome": "DataImportUtils",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.integracao.utils.lg",
+    "nome": "LGUtils",
+    "termos": [
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/integracao/utils/lg.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.loja.compra.buttons",
+    "nome": "LojaCompraButtons",
+    "termos": [
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/loja/compra/buttons.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.loja.import.pontos",
+    "nome": "ImportPontos",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/loja/import/pontos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.relatorio.import.ocorrencia.utilizacao",
+    "nome": "ImportOcorrenciaUtilizacao",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/relatorio/import/ocorrencia/utilizacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.relatorio.service.beneficio",
+    "nome": "RelatorioBeneficioService",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/relatorio/service/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.relatorio.utils.beneficio",
+    "nome": "RelatorioBeneficioUtils",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/relatorio/utils/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.arquivoCoringa",
+    "nome": "ArquivoCoringa",
+    "termos": [
+      "arquivo"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/arquivoCoringa.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.coringa.beneficio",
+    "nome": "CoringaBeneficio",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/coringa/beneficio.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.file.js",
+    "nome": "FileJs",
+    "termos": [
+      "file"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/file/js.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.file.service",
+    "nome": "FileService",
+    "termos": [
+      "file"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/file/service.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.file.utils",
+    "nome": "FileUtils",
+    "termos": [
+      "file"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/file/utils.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.amil.compra.vr",
+    "nome": "BrhainRhUtilsImportAmilCompraVr",
+    "termos": [
+      "compra",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/amil/compra/vr.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.amil.dental.coparticipacao",
+    "nome": "ImportAmilDentalCoparticipacao",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/amil/dental/coparticipacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.amil.dental.fatura",
+    "nome": "ImportAmilDentalFatura",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/amil/dental/fatura.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.amil.saude.coparticipacao",
+    "nome": "ImportAmilSaudeCoparticipacao",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/amil/saude/coparticipacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.amil.saude.coparticipacao.layoutbrhain",
+    "nome": "ImportAmilSaudeCoparticipacaoBrhain",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/amil/saude/coparticipacao/layoutbrhain.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.bancos",
+    "nome": "ImportBancos",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/bancos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.bate_cadastral",
+    "nome": "ImportBateCadastral",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/bate_cadastral.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.bate_cadastral_vida",
+    "nome": "ImportBateCadastralVida",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/bate_cadastral_vida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.cadastros.gerais",
+    "nome": "ImportCadastrosGerais",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/cadastros/gerais.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.cargos",
+    "nome": "ImportCargos",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/cargos.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.coparticipacao",
+    "nome": "ImportCoparticipacao",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/coparticipacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.empresa.filial",
+    "nome": "ImportEmpresaFilial",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/empresa/filial.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.estados.municipios",
+    "nome": "ImportEstadosMunicipios",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/estados/municipios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.estadosMunicipios",
+    "nome": "ImportEstadosMunicipios",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/estadosMunicipios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.eyeclinic.dependente",
+    "nome": "ImportEyeClinicDependente",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/eyeclinic/dependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.folha_de_pagamento",
+    "nome": "ImportFolhaDePagamento",
+    "termos": [
+      "folha",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/folha_de_pagamento.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.folha_de_pagamento_eye",
+    "nome": "ImportFolhaDePagamentoEye",
+    "termos": [
+      "folha",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/folha_de_pagamento_eye.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.folha_de_pagamento_radium",
+    "nome": "ImportFolhaDePagamentoRadium",
+    "termos": [
+      "folha",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/folha_de_pagamento_radium.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.folha_de_pagamento_sobam",
+    "nome": "ImportFolhaDePagamentoSobam",
+    "termos": [
+      "folha",
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/folha_de_pagamento_sobam.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.horistassegurovida",
+    "nome": "ImportHoristaSeguroVida",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/horistassegurovida.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.sobam.dependente",
+    "nome": "ImportSobamDependente",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/sobam/dependente.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.sobam.titular",
+    "nome": "ImportSobamTitular",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/sobam/titular.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.tarefas",
+    "nome": "ImportTarefas",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/tarefas.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.import.vt.legado",
+    "nome": "ImportVtLegado",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/import/vt/legado.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.utils.soft.timesheetimportacao",
+    "nome": "SoftTimeSheetImportacao",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/utils/soft/timesheetimportacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.wizard.service.importacaowizard",
+    "nome": "ImportacaoWizardService",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/wizard/service/importacaowizard.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "brhain.rh.wizard.utils.importacao",
+    "nome": "ImportacaoUtils",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/brhain/rh/wizard/utils/importacao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "durr.main.dev.business.elegibilidadeflex",
+    "nome": "BusinessElegibilidadeFlex",
+    "termos": [
+      "flex"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/durr/main/dev/business/elegibilidadeflex.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "durr.main.dev.integracao.businessImportFolha",
+    "nome": "BusinessImportFolha",
+    "termos": [
+      "folha",
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/durr/main/dev/integracao/businessImportFolha.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "durr.main.dev.integracao.importfolha",
+    "nome": "ImportFolha",
+    "termos": [
+      "folha",
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/durr/main/dev/integracao/importfolha.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "durr.main.dev.integracao.restimport",
+    "nome": "RESTImport",
+    "termos": [
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/durr/main/dev/integracao/restimport.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "durr.main.dev.integracao.utilsimportfolha",
+    "nome": "UtilsImportFolha",
+    "termos": [
+      "folha",
+      "import",
+      "integracao"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/durr/main/dev/integracao/utilsimportfolha.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.iam.userprofile.source",
+    "nome": "UserProfileFormBusinessDelegate",
+    "termos": [
+      "file"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/iam/userprofile/source.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.atualizarDescontoBeneficiosSeguraveis",
+    "nome": "InpaasSchedulerAtualizarDescontoBeneficiosSeguraveis",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/atualizarDescontoBeneficiosSeguraveis.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.compraCestaBasica",
+    "nome": "InpaasSchedulerCompraCestaBasica",
+    "termos": [
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/compraCestaBasica.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.import.importlogtask",
+    "nome": "Importlogtask",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/import/importlogtask.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.import.importlogtaskbusiness",
+    "nome": "Importlogtaskbusiness",
+    "termos": [
+      "import"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/import/importlogtaskbusiness.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.mensal",
+    "nome": "InpaasSchedulerCompraMensal",
+    "termos": [
+      "compra"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/mensal.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.tarefabeneficiocreche",
+    "nome": "InpaasSchedulerTarefaBeneficioCreche",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/tarefabeneficiocreche.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.teste.verificarStatusBeneficiosNaoSeguravel",
+    "nome": "InpaasSchedulerTesteVerificarStatusBeneficiosNaoSeguravel",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/teste/verificarStatusBeneficiosNaoSeguravel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.verificarBeneficioOpcao",
+    "nome": "InpaasSchedulerVerificarBeneficioOpcao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/verificarBeneficioOpcao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.verificarStatusBeneficiosNaoSeguravel",
+    "nome": "InpaasSchedulerVerificarStatusBeneficiosNaoSeguravel",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/verificarStatusBeneficiosNaoSeguravel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.verificarStatusBeneficiosNaoSeguravelRefeicao",
+    "nome": "InpaasSchedulerVerificarStatusBeneficiosNaoSeguravelRefeicao",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/verificarStatusBeneficiosNaoSeguravelRefeicao.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.verificarStatusBeneficiosNaoSeguravelValeTransporte",
+    "nome": "InpaasSchedulerVerificarStatusBeneficiosNaoSeguravelValeTransporte",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/verificarStatusBeneficiosNaoSeguravelValeTransporte.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "inpaas.scheduler.verificarStatusGestaoBeneficios",
+    "nome": "InpaasSchedulerVerificarStatusGestaoBeneficios",
+    "termos": [
+      "beneficio"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/inpaas/scheduler/verificarStatusGestaoBeneficios.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "plusoftcrm.libs.main.excel",
+    "nome": "LibsExcel",
+    "termos": [
+      "excel"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/plusoftcrm/libs/main/excel.js"
+  },
+  {
+    "tipo": "pattern",
+    "ds_key": "studiov2.js.services.fieldValidation.file",
+    "nome": "FieldValidation | File",
+    "termos": [
+      "file"
+    ],
+    "arquivo": "referencias/ambiente-completo/core-pattern/studiov2/js/services/fieldValidation/file.js"
+  }
+]

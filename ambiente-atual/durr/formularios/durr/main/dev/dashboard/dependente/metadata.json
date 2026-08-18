@@ -1,0 +1,30 @@
+{
+  "id_formulario": "369",
+  "ds_formulario": "DurrDashboardDependente",
+  "ds_key": "durr.main.dev.dashboard.dependente",
+  "ds_labelkey": null,
+  "id_module": "33",
+  "id_pattern": null,
+  "do_inactive": null,
+  "id_objetobd": null,
+  "id_permission": null,
+  "ds_styleclass": null,
+  "do_allowanon": "N",
+  "nr_majorversion": null,
+  "nr_minorversion": null,
+  "do_finalversion": "N",
+  "ds_signature": null,
+  "dt_created": "2026-08-14 13:56:53",
+  "id_usercreated": "2",
+  "dt_updated": "2026-08-14 14:37:19",
+  "id_userupdated": "2",
+  "ds_recordthumbprint": "880d05a4c25e4ced3d996a6b39a084c8",
+  "parse_status": "parsed",
+  "arquivos": {
+    "html": "ambiente-atual/durr/formularios/durr/main/dev/dashboard/dependente/index.html",
+    "css": "ambiente-atual/durr/formularios/durr/main/dev/dashboard/dependente/style.css",
+    "javascript": null,
+    "raw_payload": null,
+    "raw_record": "ambiente-atual/durr/formularios/durr/main/dev/dashboard/dependente/registro.raw.txt"
+  }
+}

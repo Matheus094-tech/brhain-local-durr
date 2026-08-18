@@ -1,0 +1,67 @@
+[
+  {
+    "namespace": "brhain",
+    "patterns": 545,
+    "formularios": 162
+  },
+  {
+    "namespace": "durr",
+    "patterns": 10,
+    "formularios": 2
+  },
+  {
+    "namespace": "inpaas",
+    "patterns": 147,
+    "formularios": 74
+  },
+  {
+    "namespace": "InpaasSchedulerValidarElegibilidadeOdonto",
+    "patterns": 1,
+    "formularios": 0
+  },
+  {
+    "namespace": "plusoftcrm",
+    "patterns": 24,
+    "formularios": 11
+  },
+  {
+    "namespace": "studiov2",
+    "patterns": 35,
+    "formularios": 100
+  },
+  {
+    "namespace": "sync",
+    "patterns": 2,
+    "formularios": 0
+  },
+  {
+    "namespace": "templatedesign",
+    "patterns": 1,
+    "formularios": 0
+  },
+  {
+    "namespace": "tiny-slider",
+    "patterns": 1,
+    "formularios": 0
+  },
+  {
+    "namespace": "vue-components-styles",
+    "patterns": 0,
+    "formularios": 1
+  },
+  {
+    "namespace": "vue-loading",
+    "patterns": 1,
+    "formularios": 0
+  },
+  {
+    "namespace": "vue-select",
+    "patterns": 1,
+    "formularios": 0
+  },
+  {
+    "namespace": "vue-sfc-loader-options",
+    "patterns": 1,
+    "formularios": 0
+  }
+]

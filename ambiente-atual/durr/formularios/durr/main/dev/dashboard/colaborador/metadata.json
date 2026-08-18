@@ -1,0 +1,30 @@
+{
+  "id_formulario": "368",
+  "ds_formulario": "DurrDashboardColaborador",
+  "ds_key": "durr.main.dev.dashboard.colaborador",
+  "ds_labelkey": null,
+  "id_module": "33",
+  "id_pattern": null,
+  "do_inactive": null,
+  "id_objetobd": null,
+  "id_permission": null,
+  "ds_styleclass": null,
+  "do_allowanon": "N",
+  "nr_majorversion": null,
+  "nr_minorversion": null,
+  "do_finalversion": "N",
+  "ds_signature": null,
+  "dt_created": "2026-08-14 13:14:22",
+  "id_usercreated": "2",
+  "dt_updated": "2026-08-14 13:25:53",
+  "id_userupdated": "2",
+  "ds_recordthumbprint": "eff0335c15a4c10bbe22ae356b5d7c89",
+  "parse_status": "parsed",
+  "arquivos": {
+    "html": "ambiente-atual/durr/formularios/durr/main/dev/dashboard/colaborador/index.html",
+    "css": "ambiente-atual/durr/formularios/durr/main/dev/dashboard/colaborador/style.css",
+    "javascript": null,
+    "raw_payload": null,
+    "raw_record": "ambiente-atual/durr/formularios/durr/main/dev/dashboard/colaborador/registro.raw.txt"
+  }
+}
